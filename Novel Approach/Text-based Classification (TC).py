@@ -164,7 +164,7 @@ def find_clusters(website, clus_size, selection):
         return lev.distance(data[i], data[j])
     
     # dir_list = os.listdir('DS/News/' + website + '/')
-    df = pd.read_csv('DS/News/' + website + '/map_url_to_number.txt', sep='\t', names=['Number', 'WebSite', 'Url', 'Filesize', 'ImgCount'], encoding='latin1')
+    df = pd.read_csv('websites/map_url_to_number_' + website +'.txt', sep='\t', names=['Number', 'WebSite', 'Url', 'Filesize', 'ImgCount'], encoding='latin1')
     data = df['Url'].tolist()
     d_list = df['Number'].tolist()
     d_filesize = df['Filesize'].tolist()
