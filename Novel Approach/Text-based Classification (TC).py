@@ -25,8 +25,13 @@ import time
 import math
 
 def classification(method = 'Text', train_web_page_count = -1, clus_size = 5):
-    path = 'DS/News/'
+    # path = 'DS/News/'
+    # dir_list = os.listdir(path)
+    path = 'websites/'
     dir_list = os.listdir(path)
+    dir_list = [w.replace('map_url_to_number_', '') for w in dir_list]
+    dir_list = [w.replace('.txt', '') for w in dir_list]
+
     # dir_list = dir_list[0:4]  
     for theDir in dir_list:
         theDir_temp =  theDir.split("-")
