@@ -1,4 +1,4 @@
-# Relevant-Image-Scraping
+# Relevant Image Scraping
 
 These Python codes contain the traditional approaches and a proposed approach for scraping relevant images on web pages.
 
