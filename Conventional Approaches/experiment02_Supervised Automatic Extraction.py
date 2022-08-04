@@ -53,6 +53,7 @@ def calculate_res(y, pred, test_name, theWebsite, modeltime, predtime):
     print('{} {}: Accuracy={} Recall={} Precision={} F-Measure={} logLoss={} modeltime={} predtime={} '.format(test_name ,theWebsite, acc, recall, pre, fmeasure, logL, modeltime, predtime))
  
 def flat_train_test_df(n = 10):
+    # Number of websites
     df = pd.read_csv('training_Dataset_AllValues_News.csv', sep='\t')
 
     df['parent1tag'] = df['Parent1'].apply(lambda x: x[1: x.find(' ')] if x.find(' ') != -1 else x[1: x.find('>')])
@@ -77,7 +78,9 @@ def flat_train_test_df(n = 10):
     return df1, df2
 
 
+
 for n in [5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190]:
     classification(n)
 
-
+# Erdinç Uzun, Erkan Özhan, Hayri Volkan Agun, Tarik Yerlikaya, and Halil Nusret Buluş. 2020. Automatically Discovering Relevant Images From Web Pages. IEEE Access 8 (2020), 208910–208921. https://doi.org/10.1109/ACCESS.2020.3039044
+# Krishna Vyas and Flavius Frasincar. 2020. Determining the most representative image on a Web page. Information Sciences 512 (2020), 1234–1248. https://doi.org/10.1016/j.ins.2019.10.045

@@ -1,8 +1,4 @@
-import os
 import pandas as pd
-import random
-
-from sklearn import preprocessing 
 
 from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
@@ -55,6 +51,7 @@ def calculate_res(y, pred, test_name, theWebsite, modeltime, predtime):
     print('{} {}: Accuracy={} Recall={} Precision={} F-Measure={} logLoss={} modeltime={} predtime={} '.format(test_name ,theWebsite, acc, recall, pre, fmeasure, logL, modeltime, predtime))
  
 def flat_train_test_df(n = 10):
+    # Number of websites
     df = pd.read_csv('training_Dataset_AllValues_News.csv', sep='\t')
 
     df['Text'] = df['theImg'] + ' ' + df['Parent1'] + ' ' + df['Parent2']
