@@ -18,5 +18,5 @@ Hap(py)codes...
 Uzun, E., Ozhan, E., Agun, H. V., Yerlikaya, T., & Bulus, H. N. (2020). Automatically Discovering Relevant Images From Web Pages. IEEE Access, 8, 208910–208921. Retrieved from https://doi.org/10.1109/access.2020.3039044
 
 # External links
-<a href="https://erdincuzun.com/yayinlar/" target="_blank">Click for bibtex, downloads, all publications...</a>
+<a href="https://erdincuzun.com/yayinlar/" target="_blank">Click for bibtex, downloads, all publications...</a><br />
 <a href="https://scrapy.org/" target="_blank">Click for Scrapy</a>
