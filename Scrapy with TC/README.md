@@ -4,7 +4,7 @@ Expert-user-driven methods such as CSS Selector, XPath, or Regular Expression ca
 
 The approach we propose involves four steps:
 
-## 1. Preparing URLs: 
+## 1. Preparing URLs
 First, a minimum of 100 URLs from a website are collected using a simple code written in Scrapy (1-prepare-URLs.py, output: URLs.csv).
 
 ## 2. Clustering step
