@@ -20,7 +20,7 @@ Example output for 5 web pages:
 ```
 
 ## 3. Training step
-The user selects the relevant image from among these pages by clicking on it from the browser, which takes them to the HTML and its textual data. Simply copying the "src" data from here is sufficient. (3-training_step.py, output: training_dataset.csv)
+The user selects the relevant image from among these pages by right-clicking and inspect on it from the browser, which takes them to the HTML and its textual data. Simply copying the "src" data from here is sufficient. (3-training_step.py, output: training_dataset.csv)
 
 We found 3 related images among the suggested URLs. Here are the src outputs of these three images found by the user:
 ```javascript
