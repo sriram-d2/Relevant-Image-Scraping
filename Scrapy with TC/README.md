@@ -34,6 +34,6 @@ In this step, we create a machine learning model for the website by classifying 
 ## 4. Scraping with Relevant Image Prediction
 The final step involves making predictions for relevant images on web pages obtained through crawling, using the model established in the previous step. (output: prediction.csv: predictions for all images in web pages...)
 
-
-
+# External links
+<a href="https://scrapy.org/" target="_blank">Click for Scrapy</a>
 
