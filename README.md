@@ -4,7 +4,7 @@ This repository includes codes for current methods, new features, and new techni
 
 You can download the datasets via https://adys.nku.edu.tr/Datasets/.
 
-## Novel features for Conventional Approaches
+## Novel features for Automatic Approaches
 
 In this study, tests were conducted using the features gathered from web pages during the crawling of a website. It was found that the cached feature was particularly noteworthy. The results and evaluations of the tests were compared with related literature (Uzun et al., 2020).
 
