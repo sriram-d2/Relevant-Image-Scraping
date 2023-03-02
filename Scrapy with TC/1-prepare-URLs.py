@@ -1,6 +1,4 @@
 import scrapy
-import re
-import os.path
 
 # get min 100 URLs for using in clustering based URL selection step
 class DailySabahSpider_CreateModel(scrapy.Spider):
