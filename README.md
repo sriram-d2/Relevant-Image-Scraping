@@ -15,7 +15,8 @@ In this study, we focused exclusively on the text data on web pages. By doing so
 Hap(py)codes...
 
 # References
-Uzun, E., Ozhan, E., Agun, H. V., Yerlikaya, T., & Bulus, H. N. (2020). Automatically Discovering Relevant Images From Web Pages. IEEE Access, 8, 208910–208921. Retrieved from https://doi.org/10.1109/access.2020.3039044
+* Uzun, E., Ozhan, E., Agun, H. V., Yerlikaya, T., & Bulus, H. N. (2020). Automatically Discovering Relevant Images From Web Pages. IEEE Access, 8, 208910–208921. Retrieved from https://doi.org/10.1109/access.2020.3039044
+* Uzun E. (2023). Scraping Relevant Images from Web Pages without Download. ACM Trans. Web 18, 1, Article 1 (February 2024), 27 pages. https://doi.org/10.1145/3616849
 
 # External links
 <a href="https://erdincuzun.com/yayinlar/" target="_blank">Click for bibtex, downloads, all publications...</a><br />
